@@ -2,11 +2,11 @@
 Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Farbketten
 
 ## Inhalt
-- Einleitung
-- Sprache & Bibliotheken
-- Setup
-- Bedienelemente
-- Status
+- [Einleitung](#Einleitung)
+- [Sprache & Bibliotheken](#Sprache-&-Bibliotheken)
+- [Setup](#Setup)
+- [Bedienelemente](#Bedienelemente)
+- [Status](#Status)
 
 ## Einleitung
 Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es enthält einen Algorithmus zur Generierung kürzerer Van Der Waerden Zahlen. Der Satzt von van der Waerden ist ein Mathematische Problem, bei dem es darum geht aus einer bestimmten Anzahl (𝑟) verschiedener Elemente, die meist als Farben dargestellt werden, eine Möglichst lange Kette zu erzeugen. Dabei dürfen eine bestimmte Anzahl (𝑙) an Elementen der selben Farbe nicht in regelmäßigen Abständen zueinander stehen. Dieser Fall wird als Muster bezeichnet. Was für die unterschiedlichen Parameter (𝑟 und 𝑙) die Maximal länge einer Kette ohne Muster ist, ist nicht bekannt. Mit diesem Programm soll es möglich gemacht werden, mit unterschiedlichen Werten zu experimentieren und eigene Überlegungen anzustellen. 
@@ -55,3 +55,5 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 - ##### Programm starten
     ```sh
     python Main.py
+## Bedienelemente
+## Status
