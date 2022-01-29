@@ -42,14 +42,14 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
     2.Command line öffnen und ins Download Verzeichnis navigieren
         ```sh
         cd <Download Verzeichnis>
-    3.Pip installieren
+    3. Pip installieren
         ```sh
         python get-pip.py
 - ##### Benötigte Bibleotheken installieren
     1.ins Projekt Verzeichnis navigieren
         ```sh
         cd <Projekt Verzeichnis>
-    2.Bibleotheken installieren
+    2. Bibleotheken installieren
         ```sh
         pip install -r requirements.txt
 - ##### Programm starten
