@@ -1,11 +1,11 @@
 # Van der Waerden Zahlen - Ketten generator
 Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Farbketten
 
-## Inhalt
+## Table of Contents
 - [Einleitung](#Einleitung)
 - [Sprache & Bibliotheken](#Sprache--Bibliotheken)
 - [Setup](#Setup)
-- [Bedienelemente](#Bedienelemente)
+- [Benutzung](#Benutzung)
 - [Quellen](#Quellen)
 - [Status](#Status)
 
@@ -63,12 +63,12 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 - ##### Programm starten
     ```sh
     python Main.py
-## Bedienelemente
+## Benutzung
 ### Hauptfenster
 Hier noch eine kleine übersicht, über die verschiedenen Bedienelemente des Hauptfensters:
 ![MainWindow](./images/MainWindowIllustrationBG.png)
 ### Grafische Darstellung
-Mithilfe der grafischen Darstellung können Farbketten wesentlich leichter analysiert und eingeordnet Werden. Dabei werden Alle im unteren Textfeld gelisteten Ketten untereinander als aneinanderreihung Farbiger Quadrate dargestellt. Diese Funktion soll es erleichtern sich einen Überblick über lange Listen an Ketten zu verschaffen.
+Mithilfe der grafischen Darstellung können Farbketten wesentlich leichter analysiert und eingeordnet Werden. Dabei werden Alle im unteren Textfeld gelisteten Ketten untereinander als aneinanderreihung Farbiger Quadrate dargestellt. Momentan wird hierfür ein neues Pygame fenster geöffnet. Diese Funktion soll es erleichtern sich einen Überblick über lange Listen an Ketten zu verschaffen.
 ![Display](./images/Display3Colors.png)
 ### Wegdiagramme
 Eine experimentelle Darstellungs Weise verschiedener Ketten, bei der Statt einzelnen Elementen ein durchgehender Weg je nach Inhalt der Ketten gezeichnet wird. Dabei steht jede verschiedene Farbe für eine andere Richtung, in die der Weg weiter verläuft. Gezeichnet wird diese Grafik bis jetzt mithilfe der Python Bibliothek Turtle. 
@@ -76,4 +76,13 @@ Eine experimentelle Darstellungs Weise verschiedener Ketten, bei der Statt einze
 ![4Colors](./images/Path4Colors.png)
 ![6Colors](./images/Path6Colors.png)
 ![10Colors](./images/Path10Colors.png)
+## Algorithmen
+### Muster erkennungs Algorithmus:
+Unser Erkennungsalgorithmus besteht im großen und ganzen aus einer for-Schleife, die die Positionen mehrerer Elemente der selben Farbe miteinander Vergleicht und Bei gleichen Abständen ein Muster erkennt. Diese for-Schleife wird so oft wiederholt, wie die eingestellte Musterlänge vorgibt. Hier noch eine kleine Illustration für besseres Verständnis:
+![Erkennung](./images/FindPatternIllustration.png)
+### Ketten generierungs Algorithmus:
+Der Generierungsalgorithmus geht bislang noch relativ simpel vor. An eine anfangs leere Kette werden nacheinander einzelne Elemente einer zufälligen Farbe angehängt. Nach jeder Anhängung wird dann vom Erkennungsalgorithmus geprüft ob ein Muster vorhanden ist. Ist dies der Fall, wird das letzte Element durch eines einer anderen Farbe ersetzt. Falls bei jeder verfügbaren Farbe ein Muster entstehen sollte, kann die Kette nicht weiter Verlängert werden und der Durchlauf ist beendet. Dieser Algorithmus ist bei weitem nicht perfekt, reicht jedoch für kurze Ketten mit geringen Startparametern vollkommen aus. Hier noch ein Flussdiagramm zur besseren Veranschaulichung des Vorgehens:
+![Generierung](./images/VanDerWaerdenNumbersBG.png)
+## Quellen
+
 ## Status
