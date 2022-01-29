@@ -36,20 +36,20 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 ### Windows
 - ##### Wenn Python3 noch nicht installiert:
     1.Windows installer von der [Python download](https://www.python.org/downloads/release/python-3102/) seite herunterladen
-    2. Installer öffnen und Python installieren
+    2.Installer öffnen und Python installieren
 - ##### Wenn Pip noch nicht installiert:
-    1. [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunterladen.
-    2. Command line öffnen und ins Download Verzeichnis navigieren
+    1.[get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunterladen.
+    2.Command line öffnen und ins Download Verzeichnis navigieren
         ```sh
         cd <Download Verzeichnis>
-    3. Pip installieren
+    3.Pip installieren
         ```sh
         python get-pip.py
 - ##### Benötigte Bibleotheken installieren
-    1. ins Projekt Verzeichnis navigieren
+    1.ins Projekt Verzeichnis navigieren
         ```sh
         cd <Projekt Verzeichnis>
-    2. Bibleotheken installieren
+    2.Bibleotheken installieren
         ```sh
         pip install -r requirements.txt
 - ##### Programm starten
