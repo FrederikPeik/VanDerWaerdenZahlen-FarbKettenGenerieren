@@ -57,7 +57,7 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
     python Main.py
 ## Bedienelemente
 ### Hauptfenster
-![MainWindow](./images/MainWindowIllustration.png)
+![MainWindow](./images/MainWindowIllustrationBG.png)
 ### Grafische Darstellung
 ### Wegdiagramme
 ## Status
