@@ -9,6 +9,7 @@ Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Fa
 - [Algorithmen](#Algorithmen)
 - [Quellen](#Quellen)
 - [Status](#Status)
+- [Lizenz](#Lizenz)
 
 ## Einleitung
 Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es enthält einen Algorithmus zur Generierung kürzerer Van Der Waerden Zahlen. Der Satzt von van der Waerden ist ein Mathematische Problem, bei dem es darum geht aus einer bestimmten Anzahl (𝑟) verschiedener Elemente, die meist als Farben dargestellt werden, eine Möglichst lange Kette zu erzeugen. Dabei dürfen eine bestimmte Anzahl (𝑙) an Elementen der selben Farbe nicht in regelmäßigen Abständen zueinander stehen. Dieser Fall wird als Muster bezeichnet. Was für die unterschiedlichen Parameter (𝑟 und 𝑙) die Maximal länge einer Kette ohne Muster ist, ist nicht bekannt. Mit diesem Programm soll es möglich gemacht werden, mit unterschiedlichen Werten zu experimentieren und eigene Überlegungen anzustellen. 
@@ -85,10 +86,10 @@ Unser Erkennungsalgorithmus besteht im großen und ganzen aus einer for-Schleife
 Der Generierungsalgorithmus geht bislang noch relativ simpel vor. An eine anfangs leere Kette werden nacheinander einzelne Elemente einer zufälligen Farbe angehängt. Nach jeder Anhängung wird dann vom Erkennungsalgorithmus geprüft ob ein Muster vorhanden ist. Ist dies der Fall, wird das letzte Element durch eines einer anderen Farbe ersetzt. Falls bei jeder verfügbaren Farbe ein Muster entstehen sollte, kann die Kette nicht weiter Verlängert werden und der Durchlauf ist beendet. Dieser Algorithmus ist bei weitem nicht perfekt, reicht jedoch für kurze Ketten mit geringen Startparametern vollkommen aus. Hier noch ein Flussdiagramm zur besseren Veranschaulichung des Vorgehens:
 ![Generierung](./images/VanDerWaerdenNumbersBG.png)
 ## Quellen
-https://de.wikipedia.org/wiki/Satz_von_van_der_Waerden
-https://en.wikipedia.org/wiki/Van_der_Waerden_number
-http://www.vdwnumbers.org/
-https://www.cs.umd.edu/~gasarch/papers/lowervdw.pdf
+- https://de.wikipedia.org/wiki/Satz_von_van_der_Waerden
+- https://en.wikipedia.org/wiki/Van_der_Waerden_number
+- http://www.vdwnumbers.org/
+- https://www.cs.umd.edu/~gasarch/papers/lowervdw.pdf
 
 ## Status
 Wie oben erwähnt, wurde dieses Programm mit Hauptfokus auf ein Jugend Forscht Projekt geschrieben. Auf jeden Fall, wird es noch einige updates und bug-fixes geben, um das Projekt so benutzer freundlich wie möglich zu machen. Vor allem ist ein neuer verbesserter Algorithmus zur Ketten generierung geplant, sowie ein paar neue Ketten bearbeitungs möglichkeiten, die das erforschen der Van der Waerden Ketten noch einfacher zu machen. 
