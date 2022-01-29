@@ -35,7 +35,7 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
   python3 Main.py
 ### Windows
 - ##### Wenn Python3 noch nicht installiert:
-    1. Windows installer von der [Python download](https://www.python.org/downloads/release/python-3102/) seite herunterladen
+    1.Windows installer von der [Python download](https://www.python.org/downloads/release/python-3102/) seite herunterladen
     2. Installer öffnen und Python installieren
 - ##### Wenn Pip noch nicht installiert:
     1. [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunterladen.
