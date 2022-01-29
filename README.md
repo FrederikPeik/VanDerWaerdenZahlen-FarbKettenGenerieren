@@ -57,7 +57,12 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
     python Main.py
 ## Bedienelemente
 ### Hauptfenster
+Hier noch eine kleine übersicht, über die verschiedenen Bedienelemente des Hauptfensters:
 ![MainWindow](./images/MainWindowIllustrationBG.png)
 ### Grafische Darstellung
+![3Colors](./images/Path3Colors.png)
+![4Colors](./images/Path4Colors.png)
+![6Colors](./images/Path6Colors.png)
+![10Colors](./images/Path10Colors.png)
 ### Wegdiagramme
 ## Status
