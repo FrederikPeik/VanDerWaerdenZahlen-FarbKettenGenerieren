@@ -21,15 +21,37 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 
 ## Setup
 ### Linux (Ubuntu)
-- Wenn Python3 noch nicht installiert: 
+- ##### Wenn Python noch nicht installiert: 
   ```sh
-  sudo apt install python3
-- Wenn Pip noch nicht installiert:
+  sudo apt install python
+- ##### Wenn Pip noch nicht installiert:
   ```sh
   sudo apt install pip
-- Benötigte Bibleotheken installieren: 
+- ##### Benötigte Bibleotheken installieren: 
   ```sh
   pip install -r requirements.
-- Programm starten:
+- ##### Programm starten:
   ```sh
   python3 Main.py
+### Windows
+- ##### Wenn Python3 noch nicht installiert:
+    1. Windows installer von der [Python download](https://www.python.org/downloads/release/python-3102/) seite herunterladen
+    2. Installer öffnen und Python installieren
+- ##### Wenn Pip noch nicht installiert:
+    1. [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunterladen.
+    2. Command line öffnen und ins Download Verzeichnis navigieren
+        ```sh
+        cd <Download Verzeichnis>
+    3. Pip installieren
+        ```sh
+        python get-pip.py
+- ##### Benötigte Bibleotheken installieren
+    1. ins Projekt Verzeichnis navigieren
+        ```sh
+        cd <Projekt Verzeichnis>
+    2. Bibleotheken installieren
+        ```sh
+        pip install -r requirements.txt
+- ##### Programm starten
+    ```sh
+    python Main.py
