@@ -3,7 +3,7 @@ Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Fa
 
 ## Inhalt
 - [Einleitung](#Einleitung)
-- [Sprache & Bibliotheken](#Sprache-&-Bibliotheken)
+- [Sprache & Bibliotheken](#Sprache--Bibliotheken)
 - [Setup](#Setup)
 - [Bedienelemente](#Bedienelemente)
 - [Status](#Status)
@@ -56,4 +56,8 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
     ```sh
     python Main.py
 ## Bedienelemente
+### Hauptfenster
+![MainWindow](./images/MainWindowIllustration.png)
+### Grafische Darstellung
+### Wegdiagramme
 ## Status
