@@ -22,8 +22,8 @@ import ast
 class Main(QtWidgets.QMainWindow):
     def __init__(self):
         super(Main, self).__init__()
-        uic.loadUi('/home/fred/Python/JuFo2022/MainProject/Window.ui', self)
-        sshFile = "/home/fred/Python/JuFo2022/MainProject/style.qss"
+        uic.loadUi('Window.ui', self)
+        sshFile = "style.qss"
         with open(sshFile, "r") as fh:
            self.setStyleSheet(fh.read()) # Dunkles Stylesheet laden
         self.show()
