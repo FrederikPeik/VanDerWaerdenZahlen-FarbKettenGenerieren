@@ -6,6 +6,7 @@ Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Fa
 - [Sprache & Bibliotheken](#Sprache--Bibliotheken)
 - [Setup](#Setup)
 - [Bedienelemente](#Bedienelemente)
+- [Quellen](#Quellen)
 - [Status](#Status)
 
 ## Einleitung
@@ -14,10 +15,17 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 ## Sprache & Bibliotheken
 ##### Programmiersprache:
 - Python 3.6
-##### Bibliotheken
+##### Bibliotheken:
 - PyQt5 5.15.6
 - QDarkStyle 2.8.1
 - pygame 2.1.2
+##### Interne Bibliotheken:
+- turtle
+- random
+- sys
+- os
+- re
+- as
 
 ## Setup
 ### Linux (Ubuntu)
@@ -60,9 +68,12 @@ Dieses Programm ist im Rahmen eines Jugendforscht Projekts entwickelt worden. Es
 Hier noch eine kleine übersicht, über die verschiedenen Bedienelemente des Hauptfensters:
 ![MainWindow](./images/MainWindowIllustrationBG.png)
 ### Grafische Darstellung
+Mithilfe der grafischen Darstellung können Farbketten wesentlich leichter analysiert und eingeordnet Werden. Dabei werden Alle im unteren Textfeld gelisteten Ketten untereinander als aneinanderreihung Farbiger Quadrate dargestellt. Diese Funktion soll es erleichtern sich einen Überblick über lange Listen an Ketten zu verschaffen.
+![Display](./images/Display3Colors.png)
+### Wegdiagramme
+Eine experimentelle Darstellungs Weise verschiedener Ketten, bei der Statt einzelnen Elementen ein durchgehender Weg je nach Inhalt der Ketten gezeichnet wird. Dabei steht jede verschiedene Farbe für eine andere Richtung, in die der Weg weiter verläuft. Gezeichnet wird diese Grafik bis jetzt mithilfe der Python Bibliothek Turtle. 
 ![3Colors](./images/Path3Colors.png)
 ![4Colors](./images/Path4Colors.png)
 ![6Colors](./images/Path6Colors.png)
 ![10Colors](./images/Path10Colors.png)
-### Wegdiagramme
 ## Status
