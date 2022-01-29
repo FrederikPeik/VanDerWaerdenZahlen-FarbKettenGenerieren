@@ -1,4 +1,4 @@
-# Van der Wearden Zahlen - Ketten generator
+# Van der Waerden Zahlen - Ketten generator
 Ein simples User Interface zum generieren und bearbeiten, von Van Der Waerden Farbketten
 
 ## Inhalt
